@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TRABALHO A1</title>
+        <link rel="stylesheet" type="text/css" href="pagina05.css">
+        <link rel="stylesheet" type="text/javascript" href="pagina05.js">
+        <html lang="en">
+        <head>
+           
+            <meta charset="UTF-8">
+            
+            
+            <meta name="description" content="Está  é um exemplo do uso da tag meta">
+            
+            <meta name="author" content="Luis">
+             <!--<meta http-equiv="refresh" content="5">-->
+            
+            
+           
+    
+    
+    
+    
+
+    </head>
+    <body>
+
+        <h1>Clique para mudar    a imagem!</h1>
+        <div class="switch">
+           <!-- <p> <input type="button" name="proximo" id="switch">proximo</p>
+            <p> <input type="button" name="anterior" id="switch">anterior</p>-->
+            <button  class =" botao " type =" submit " onsubmit ="" > anterior </button>
+            <button  class =" botao " type =" submit " onsubmit ="" > proximo </button>    
+          
+        </div>
+        
+        <img src="/imagem1.jpg" id="imagem" />
+
+        <br><span style="font-size: xx-small"> imagem da faculdade unifg </span>
+
+        
+        
+        
+        
+        <ul>
+            <li> A UniFG – Centro Universitário – nasceu como resposta a uma demanda que se estendeu historicamente no município de Guanambi e ultrapassou os seus limites. Uma demanda que marcou as agendas sociais e políticas de parte significativa da população dos municípios situados na região do semiárido baiano, movimentando articulações nos campos mais diversos das forças políticas locais, e redesenhando o cenário do ensino superior no interior da região Nordeste do Brasil.</li>
+        </ul>
+
+
+
+        <input type="text" id="caixa_alta">
+
+        
+    </body>
+
+<!--caixa alta-->
+    <script>
+        document.querySelector("#caixa_alta").addEventListener('keyup', (e) => {
+            let ss = e.target.selectionStart;
+            let se = e.target.selectionEnd;
+            e.target.value = e.target.value.toUpperCase();
+            e.target.selectionStart = ss;
+            e.target.selectionEnd = se;
+        });
+    </script>
+     <script>
+        document.querySelector("#caixa_baixa").addEventListener('keyup', (e) => {
+            let ss = e.target.selectionStart;
+            let se = e.target.selectionEnd;
+            e.target.value = e.target.value.toUpperCase();
+            e.target.selectionStart = ss;
+            e.target.selectionEnd = se;
+        });
+    </script>
+
+    <script src="script.js"></script>
+</html>

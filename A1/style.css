@@ -1,0 +1,15 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-image: -webkit-radial-gradient(rgb(177, 149, 149),rgb(158, 158, 224),rgb(116, 109, 98));
+}
+.switch{
+    color: #590a99;
+    font-size: 20px;
+}
+
+button{ 
+    
+    box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), 
+    inserção -8px -8px 16px 0px rgba(145, 192, 255, 0.6), 
+    inserção 0px 11px 28px 0px rgb(255, 255, 255) ;}
